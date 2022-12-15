@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.css" />
+    <script src="./bootstrap-5.2.3-dist/js/bootstrap.js"></script>
+    <script src="./jquery-3.6.1.js"></script>
+  </head>
+  <style>
+    /* 
+    col: màn hình có kích thước <=576px                       xs<=576
+    col-sm: màn hình có kích thước >=576px; small             576 <= sm <= 768
+    col-md: màn hình có kích thước >=768px; medium            768 <= md <m 992
+    col-lg: màn hình có kich thước >=992px; large             992 <= lg <= 1200
+    col-xl: màn hình có kích thước >=1200px; extra large      xl>=1200
+    */
+  </style>
+  <body>
+    <div class="container-fluid">
+        <h2>My first bootstrap page</h2>
+        <p>Bootstrap the browser window to see effect</p>
+      <div class="row">
+        <div class="col-4 col-sm-4 col-md-7 col-lg-6 col-xl-12 bg-success">One of three columns</div>
+        <div class="col-4 col-sm-4 col-md-7 col-lg-6 col-xl-12 bg-warning">One of three columns</div>
+        <div class="col-4 col-sm-4 col-md-7 col-lg-6 col-xl-12 bg-primary">One of three columns</div>
+      </div>
+    </div>
+  </body>
+</html>
